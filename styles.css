@@ -241,6 +241,15 @@ footer{
   padding: 5%;
 }
 
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #464665;
+}
+
 
 /* VERSI MOBILE */
 
