@@ -286,6 +286,14 @@ button:focus {
 
 /* Contact */
 
+.big-contact-heading {
+  font-family: "Mulish", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
 .container-contact-fluid {
   padding: 1%;
 }
