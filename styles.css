@@ -210,6 +210,7 @@ button:focus {
 
 .container-contact-fluid {
   padding: 1%;
+  margin-bottom: 5%;
 }
 
 .contact-title {
@@ -235,6 +236,59 @@ button:focus {
   text-align: center;
   z-index: 2;
 }
+
+/* About page */
+
+.about-head{
+  padding: 0!important;
+}
+
+.line-img{
+  width: 30%;
+    position: absolute;
+    left: 10%;
+    top: 10rem;
+  
+}
+
+.what-line{
+  position: absolute;
+  top: 11rem;
+  left: 25%;
+  width: 50%;
+}
+
+.caserva-about-img{
+  width: 80%!important;
+  z-index: 2;
+}
+
+.ask{
+  position: absolute;
+  left: 90%;
+  width: 30%;
+  top: -15%;
+  z-index: 0;
+
+}
+
+.wave{
+    position: absolute;
+    z-index: -1;
+    top: 60%;
+}
+
+.wave-img{
+  width: 100%;
+  height: 50%;
+}
+
+.contents{
+    position: relative;
+    top: 90%;
+    width: 100%;
+}
+
 
 footer{
   background-color: #B99C7E;
