@@ -425,7 +425,7 @@ button:focus {
 .reservasi-title{
   position: absolute;
   top: 20%;
-  left: 45%;
+  left: 44.5%;
   font-size: 2rem;
 }
 
@@ -434,15 +434,27 @@ button:focus {
 }
 
 .reservasi-content h2, img{
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .reservasi-content img{
   border-radius: 5%;
+  width: 27%;
 }
 
+.rating{
+  padding: 2%;
+}
 
+.checked{
+  color: #B99C7E;
+}
 
+hr{
+  width: 50%;
+  border: 1px solid #000000;;
+}
 /* footer  */
 
 footer {
