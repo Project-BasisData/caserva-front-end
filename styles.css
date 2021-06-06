@@ -121,7 +121,7 @@ button:focus {
   white-space: nowrap;
   transition: 0.3s;
   font-size: 1rem;
-  border: 2px solid #424928;
+  border: 2px solid grey;
   font-weight: bold;
   position: absolute;
   top: 20%;
@@ -130,7 +130,7 @@ button:focus {
 }
 
 .back-btn:hover {
-  background: #424928;
+  background: grey;
   color: #fff;
 }
 
@@ -429,6 +429,22 @@ button:focus {
   font-size: 2rem;
 }
 
+.reservasi-content{
+  margin-top: 10%;
+}
+
+.reservasi-content h2, img{
+  text-align: center;
+}
+
+.reservasi-content img{
+  border-radius: 5%;
+}
+
+
+
+/* footer  */
+
 footer {
   background-color: #b99c7e;
   padding: 5%;
@@ -458,6 +474,7 @@ footer a:hover {
     position: relative;
     bottom: 0;
   }
+
 }
 
 @media (max-width: 1028px) {
@@ -566,5 +583,18 @@ footer a:hover {
   top: 30%;
   left: 10%;
 }
+
+.reservasi-content{
+  margin-top: 30%;
+}
+
+.reservasi-content h2, img{
+  text-align: left;
+  font-size: 1.5rem;
+}
+.reservasi-content img{
+  width: 100%;
+}
+
 
 }
