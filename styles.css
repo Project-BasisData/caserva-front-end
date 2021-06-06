@@ -440,6 +440,10 @@ button:focus {
 
 .reservasi-content img{
   border-radius: 5%;
+  /* width: 27%; */
+}
+
+.cafe-img{
   width: 27%;
 }
 
@@ -455,6 +459,16 @@ hr{
   width: 50%;
   border: 1px solid #000000;;
 }
+
+.kursi{
+  display: inline-flex;
+}
+
+.jumlah{
+  
+    margin: 50px 0px;
+}
+
 /* footer  */
 
 footer {
